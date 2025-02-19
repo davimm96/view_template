@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="{{ asset('assets/fontawesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 </head>
-<body>
-    
+<body style="width:97%;diplay:block;margin:0 auto">
+
     @include('layouts.topbar')
 
     @yield('content')
